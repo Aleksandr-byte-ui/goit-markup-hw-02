@@ -1,0 +1,24 @@
+/* шапка */
+.page {
+  color: #757575;
+}
+
+.logo {
+  color: #000000;
+}
+
+.web {
+  color: #2196f3;
+}
+
+.list {
+  list-style: none;
+}
+
+.site-nav {
+  color: #212121;
+}
+
+.site-nav :hover {
+  color: #2196f3;
+}
