@@ -1,3 +1,5 @@
+/*index.html*/
+
 /* шапка */
 .page {
   color: #757575;
@@ -5,10 +7,12 @@
 
 .logo {
   color: #000000;
+  font-family: Raleway, sans-serif;
 }
 
 .web {
   color: #2196f3;
+  font-family: Raleway, sans-serif;
 }
 
 .list {
@@ -22,3 +26,8 @@
 .site-nav :hover {
   color: #2196f3;
 }
+
+/*index.html*/
+
+/*portfolio.html*/
+/*portfolio.html*/
