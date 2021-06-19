@@ -1,4 +1,6 @@
 :root {
+  --main-font: "Roboto", sans-serif;
+  --secondery-font: "Raleway", sans-serif;
   --acsent-color: #2196f3;
 }
 
@@ -13,12 +15,32 @@
 }
 .page {
   color: #757575;
-  font-family: "Roboto", sans-serif;
+  font-family: var(--main-font);
 }
 
 /*index.html*/
 
 /*----- header -------*/
+
+.logo {
+  color: #000000;
+  font-family:var(--secondery-font)
+  font-style: 700;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
+.web {
+  color: #2196f3;
+  font-family:var(--secondery-font)
+  font-style: 700;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
+
 .menu-link {
   font-weight: 500;
   font-size: 14px;
@@ -90,43 +112,127 @@
   letter-spacing: 0.03em;
   color: #757575;
 }
+ .list-title{
+   font-family:var(--main-font)
+   font-weight: 700;
+   font-size: 14px;
+   line-height:1.14;
+   letter-spacing: 0.03em;
+   text-transform: uppercase;
+   color: #212121;
 
+ }
 /*----Описаниу---*/
-
-.logo {
-  color: #000000;
-  font-family: "Raleway", sans-serif;
-  font-style: 700;
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 1.19;
+/*----Занятя---*/
+.picture-title{
+  font-family:var(--main-font)
+  font-weight:700;
+  ont-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
 }
 
-.web {
-  color: #2196f3;
-  font-family: "Raleway", sans-serif;
-  font-style: 700;
-  font-weight: bold;
-  font-size: 26px;
+/*----Занятя---*/
+
+/*----Наша команда---*/
+.names-list{
+  font-family:var(--main-font)
+  font-weight: 500;
+  font-size: 16px;
   line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.profession-list{
+
+  font-family:var(--main-font)
+  font-weight:400;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+
+/*----Наша команда---*/
+
+/*----Подвал---*/
+.logo-footer{
+
+  font-family:var(--secondery-font)
+  font-weight: 700;
+  font-size: 26px;
+  line-height:1.19;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
+}
+
+.address{
+  font-family:var(--main-font)
+font-weight:400;
+font-size: 14px;
+line-height:1.7;
+letter-spacing: 0.03em;
+color: #FFFFFF;
+}
+.footer-link{
+font-family: var(--main-font)
+font-weight: 400;
+font-size: 14px;
+line-height:1.7;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+}
+
+/*----Подвал---*/
+
 }
 
 /*index.html*/
 
 /*portfolio.html*/
+
+.btn{
+  cursor:pointer; 
+}
+
 .modal-btn {
-  font-family: "Roboto", sans-serif;
+  font-family:var(--main-font)
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
-  cursor: pointer;
+ 
 }
+
 .modal-btn:hover,
 .modal-btn:focus {
   background: #2196f3;
   color: #ffffff;
 }
-/*portfolio.html*/
+
+
+.portfolio-list{
+font-family:var(--main-font)
+font-weight:700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+color: #212121;
+}
+.descrip{
+font-family:var(--main-font)
+font-weight: 400;
+font-size: 16px;
+line-height:1.19;
+letter-spacing: 0.03em;
+color: #757575;
+}
+/*---portfolio-подвал ------ */
