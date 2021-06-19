@@ -2,6 +2,9 @@
   --main-font: "Roboto", sans-serif;
   --secondery-font: "Raleway", sans-serif;
   --acsent-color: #2196f3;
+  --wait-color:#ffffff;
+
+
 }
 
 .list {
@@ -23,21 +26,21 @@
 /*----- header -------*/
 
 .logo {
-  color: #000000;
   font-family:var(--secondery-font)
-  font-style: 700;
-  font-weight: bold;
+  font-style: normal;
+  font-weight:700;
   font-size: 26px;
   line-height: 1.19;
+  color: #000000;
 }
 
 .web {
-  color: #2196f3;
   font-family:var(--secondery-font)
-  font-style: 700;
-  font-weight: bold;
+  font-style: normal;
+  font-weight:700;
   font-size: 26px;
   line-height: 1.19;
+  color: #2196f3;
 }
 
 
@@ -52,15 +55,12 @@
 .menu-link:focus {
   color: var(--acsent-color);
 }
-.mil-link {
+.mil-link ,
+.tel-link {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #2196f3;
-}
-.mil-link,
-.tel-link {
   color: #757575;
 }
 
@@ -68,6 +68,8 @@
 .mil-link:focus {
   color: var(--acsent-color);
 }
+
+
 .tel-link:hover,
 .tel-link:focus {
   color: var(--acsent-color);
@@ -98,7 +100,7 @@
 }
 .hero-btn:hover,
 .hero-btn:focus {
-  background: #2196f3;
+  background:#2196f3;
   color: #ffffff;
 }
 
@@ -169,7 +171,9 @@
   font-size: 26px;
   line-height:1.19;
   letter-spacing: 0.03em;
-  color: #FFFFFF;
+  color:#FFFFFF;
+
+
 }
 
 .address{
@@ -178,7 +182,8 @@ font-weight:400;
 font-size: 14px;
 line-height:1.7;
 letter-spacing: 0.03em;
-color: #FFFFFF;
+color:#FFFFFF;
+
 }
 .footer-link{
 font-family: var(--main-font)
@@ -214,7 +219,7 @@ color: rgba(255, 255, 255, 0.6);
 
 .modal-btn:hover,
 .modal-btn:focus {
-  background: #2196f3;
+  background:#2196f3;
   color: #ffffff;
 }
 
