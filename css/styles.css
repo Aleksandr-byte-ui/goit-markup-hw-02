@@ -1,33 +1,132 @@
-/*index.html*/
-
-/* шапка */
-.page {
-  color: #757575;
-}
-
-.logo {
-  color: #000000;
-  font-family: Raleway, sans-serif;
-}
-
-.web {
-  color: #2196f3;
-  font-family: Raleway, sans-serif;
+:root {
+  --acsent-color: #2196f3;
 }
 
 .list {
   list-style: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.16;
+}
+.link {
+  text-decoration: none;
+}
+.page {
+  color: #757575;
+  font-family: "Roboto", sans-serif;
 }
 
-.site-nav {
+/*index.html*/
+
+/*----- header -------*/
+.menu-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
   color: #212121;
 }
-
-.site-nav :hover {
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--acsent-color);
+}
+.mil-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
   color: #2196f3;
+}
+.mil-link,
+.tel-link {
+  color: #757575;
+}
+
+.mil-link:hover,
+.mil-link:focus {
+  color: var(--acsent-color);
+}
+.tel-link:hover,
+.tel-link:focus {
+  color: var(--acsent-color);
+}
+
+/*----- header -------*/
+
+/*-----Эффект риш ----*/
+.hero-taitl {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #000000;
+}
+.hero-btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  color: #000000;
+}
+.hero-btn:hover,
+.hero-btn:focus {
+  background: #2196f3;
+  color: #ffffff;
+}
+
+/*-----Эффект риш ----*/
+
+/*----Описаниу---*/
+.description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.4;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+/*----Описаниу---*/
+
+.logo {
+  color: #000000;
+  font-family: "Raleway", sans-serif;
+  font-style: 700;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
+.web {
+  color: #2196f3;
+  font-family: "Raleway", sans-serif;
+  font-style: 700;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
 }
 
 /*index.html*/
 
 /*portfolio.html*/
+.modal-btn {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  cursor: pointer;
+}
+.modal-btn:hover,
+.modal-btn:focus {
+  background: #2196f3;
+  color: #ffffff;
+}
 /*portfolio.html*/
