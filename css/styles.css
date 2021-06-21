@@ -3,6 +3,8 @@
   --secondery-font: "Raleway", sans-serif;
   --acsent-color: #2196f3;
   --wait-color:#ffffff;
+  --text-gray:#757575;
+  --color-names:#212121;
 
 
 }
@@ -17,7 +19,7 @@
   text-decoration: none;
 }
 .page {
-  color: #757575;
+  color:var(--text-gray);
   font-family: var(--main-font);
 }
 
@@ -26,7 +28,7 @@
 /*----- header -------*/
 
 .logo {
-  font-family:var(--secondery-font)
+  font-family:var(--secondery-font);
   font-style: normal;
   font-weight:700;
   font-size: 26px;
@@ -35,7 +37,7 @@
 }
 
 .web {
-  font-family:var(--secondery-font)
+  font-family:var(--secondery-font);
   font-style: normal;
   font-weight:700;
   font-size: 26px;
@@ -49,7 +51,7 @@
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #212121;
+  color:var(--color-names);
 }
 .menu-link:hover,
 .menu-link:focus {
@@ -61,7 +63,7 @@
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #757575;
+  color:var(--text-gray);
 }
 
 .mil-link:hover,
@@ -112,52 +114,52 @@
   font-size: 14px;
   line-height: 1.4;
   letter-spacing: 0.03em;
-  color: #757575;
+  color:var(--text-gray);
 }
  .list-title{
-   font-family:var(--main-font)
+   font-family:var(--main-font);
    font-weight: 700;
    font-size: 14px;
    line-height:1.14;
    letter-spacing: 0.03em;
    text-transform: uppercase;
-   color: #212121;
+   color:var(--color-names);
 
  }
 /*----Описаниу---*/
 /*----Занятя---*/
 .picture-title{
-  font-family:var(--main-font)
+  font-family:var(--main-font);
   font-weight:700;
   ont-size: 36px;
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color:var(--color-names);
 }
 
 /*----Занятя---*/
 
 /*----Наша команда---*/
 .names-list{
-  font-family:var(--main-font)
+  font-family:var(--main-font);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color:var(--color-names);
 }
 
 .profession-list{
 
-  font-family:var(--main-font)
+  font-family:var(--main-font);
   font-weight:400;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #757575;
+  color:var(--text-gray);
 }
 
 
@@ -166,27 +168,27 @@
 /*----Подвал---*/
 .logo-footer{
 
-  font-family:var(--secondery-font)
+  font-family:var(--secondery-font);
   font-weight: 700;
   font-size: 26px;
   line-height:1.19;
   letter-spacing: 0.03em;
   color:#FFFFFF;
-
-
 }
 
+
 .address{
-  font-family:var(--main-font)
+  font-family:var(--main-font);
+  font-style: normal;
 font-weight:400;
 font-size: 14px;
 line-height:1.7;
 letter-spacing: 0.03em;
 color:#FFFFFF;
-
 }
+
 .footer-link{
-font-family: var(--main-font)
+font-family: var(--main-font);
 font-weight: 400;
 font-size: 14px;
 line-height:1.7;
@@ -207,13 +209,13 @@ color: rgba(255, 255, 255, 0.6);
 }
 
 .modal-btn {
-  font-family:var(--main-font)
+  font-family:var(--main-font);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color:var(--color-names);
  
 }
 
@@ -225,7 +227,7 @@ color: rgba(255, 255, 255, 0.6);
 
 
 .portfolio-list{
-font-family:var(--main-font)
+font-family:var(--main-font);
 font-weight:700;
 font-size: 18px;
 line-height: 2;
@@ -233,11 +235,11 @@ letter-spacing: 0.06em;
 color: #212121;
 }
 .descrip{
-font-family:var(--main-font)
+font-family:var(--main-font);
 font-weight: 400;
 font-size: 16px;
 line-height:1.19;
 letter-spacing: 0.03em;
-color: #757575;
+color:var(--text-gray);
 }
 /*---portfolio-подвал ------ */
